@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maison Elora Parfums</title>
+<style>
+:root{--ink:#171512;--cream:#f5f0e7;--gold:#b08a4a;--muted:#746d62}
+*{box-sizing:border-box} body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,sans-serif}
+header{padding:20px 22px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #ded6c9}
+.logo{font-family:Georgia,serif;font-size:18px;letter-spacing:2px}.menu{font-size:22px}
+.hero{min-height:650px;padding:75px 25px 45px;display:flex;flex-direction:column;justify-content:center;background:linear-gradient(#f5f0e7cc,#f5f0e7cc),radial-gradient(circle at 70% 30%,#d6c09b 0,transparent 35%)}
+.kicker{letter-spacing:4px;font-size:11px;color:var(--gold);margin-bottom:18px}
+h1{font:normal 48px/1.03 Georgia,serif;margin:0 0 20px;max-width:360px}
+.hero p{color:var(--muted);line-height:1.7;max-width:330px}
+.btn{display:inline-block;background:var(--ink);color:white;text-decoration:none;padding:15px 22px;margin-top:15px;width:max-content;letter-spacing:1px;font-size:12px}
+section{padding:55px 22px}.title{font:normal 32px Georgia,serif;margin:0 0 10px}.sub{color:var(--muted);font-size:14px;line-height:1.6}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:28px}.card{background:#fffaf2;padding:12px}.bottle{height:190px;background:linear-gradient(145deg,#e6dccb,#b99b6d);display:flex;align-items:center;justify-content:center}.bottle span{background:#f6efe2;padding:35px 13px 20px;font:13px Georgia,serif;letter-spacing:1px;box-shadow:0 10px 25px #0002}.card h3{font:normal 18px Georgia,serif;margin:14px 0 5px}.card small{color:var(--muted)}
+.about{background:#1c1a17;color:#f5f0e7}.about .sub{color:#c9c1b5}.quote{font:normal 27px/1.35 Georgia,serif;margin-top:28px}
+.order{background:#e8decd;text-align:center}.order .btn{background:var(--gold)}
+footer{padding:28px 22px;text-align:center;font-size:11px;letter-spacing:2px;color:var(--muted)}
+@media(min-width:700px){body{max-width:1100px;margin:auto}.hero{min-height:700px;padding-left:80px}.grid{grid-template-columns:repeat(3,1fr)}section{padding:70px 60px}}
+</style>
+</head>
+<body>
+<header><div class="logo">MAISON ELORA</div><div class="menu">☰</div></header>
+
+<main>
+<section class="hero">
+<div class="kicker">PARFUMS • MAISON • MAROC</div>
+<h1>L’élégance en chaque fragrance.</h1>
+<p>Découvrez l’univers de Maison Elora Parfums : des fragrances pensées pour laisser une empreinte élégante, moderne et inoubliable.</p>
+<a class="btn" href="#collection">DÉCOUVRIR LA COLLECTION</a>
+</section>
+
+<section id="collection">
+<div class="kicker">NOTRE COLLECTION</div>
+<h2 class="title">Nos parfums</h2>
+<p class="sub">Une première sélection de fragrances. Les noms, photos et prix pourront être remplacés par votre véritable catalogue.</p>
+<div class="grid">
+<div class="card"><div class="bottle"><span>ELORA<br>01</span></div><h3>Elora 01</h3><small>Floral • Musqué</small></div>
+<div class="card"><div class="bottle"><span>ELORA<br>02</span></div><h3>Elora 02</h3><small>Boisé • Ambré</small></div>
+<div class="card"><div class="bottle"><span>ELORA<br>03</span></div><h3>Elora 03</h3><small>Fruité • Élégant</small></div>
+</div>
+</section>
+
+<section class="about">
+<div class="kicker">LA MAISON</div>
+<h2 class="title">Une signature, une identité.</h2>
+<p class="sub">Maison Elora Parfums imagine un univers où le parfum devient une expression de personnalité et de style.</p>
+<div class="quote">« Un parfum ne se voit pas. Il se reconnaît. »</div>
+</section>
+
+<section class="order">
+<div class="kicker">VOTRE FRAGRANCE VOUS ATTEND</div>
+<h2 class="title">Commander</h2>
+<p class="sub">Choisissez votre parfum et contactez-nous directement pour passer votre commande.</p>
+<a class="btn" href="https://wa.me/" target="_blank">COMMANDER SUR WHATSAPP</a>
+</section>
+</main>
+
+<footer>MAISON ELORA PARFUMS · CASABLANCA · MAROC</footer>
+</body>
+</html>
